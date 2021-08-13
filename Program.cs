@@ -18,7 +18,16 @@ namespace AzureVMDeployment
             Console.WriteLine("Windows Virtual Machine Devlopment has been started...");
 
             //Get Azure credentials
+            var credentials = SdkContext.AzureCredentialsFactory
+                                            .FromFile("./azureauth.properties");
             
+            //Azure Authentication
+            var azure = Azure.Configure()
+                                .WithLogLevel(HttpLoggingDelegatingHandler.Level.Basic)
+                                .Authenticate(credentials)
+                                .WithDefaultSubscription();
+            
+
         }
     }
 }
