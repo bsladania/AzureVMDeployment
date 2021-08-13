@@ -1,13 +1,3 @@
-obj/azureauth.properties
-obj/Debug/net5.0/apphost.exe
-obj/Debug/net5.0/AzureVMDeployment.csproj.AssemblyReference.cache
-obj/Debug/net5.0/AzureVMDeployment.csproj.CopyComplete
-obj/Debug/net5.0/AzureVMDeployment.csproj.CoreCompileInputs.cache
-obj/Debug/net5.0/AzureVMDeployment.csproj.FileListAbsolute.txt
-obj/Debug/net5.0/AzureVMDeployment.dll
-obj/Debug/net5.0/AzureVMDeployment.genruntimeconfig.cache
-obj/Debug/net5.0/AzureVMDeployment.pdb
-obj/Debug/net5.0/ref/AzureVMDeployment.dll
 bin/Debug/net5.0/AzureVMDeployment.deps.json
 bin/Debug/net5.0/AzureVMDeployment.dll
 bin/Debug/net5.0/AzureVMDeployment.exe
@@ -51,5 +41,3 @@ bin/Debug/net5.0/Microsoft.WindowsAzure.Storage.dll
 bin/Debug/net5.0/Newtonsoft.Json.dll
 bin/Debug/net5.0/ref/AzureVMDeployment.dll
 azureauth.properties
-obj/Debug/net5.0/AzureVMDeployment.csproj.AssemblyReference.cache
-obj/Debug/net5.0/AzureVMDeployment.csproj.AssemblyReference.cache
