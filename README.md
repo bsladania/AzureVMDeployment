@@ -1,5 +1,7 @@
 # AzureVMDeployment
 
+Create and Manage Azure VMs using C#
+
 Structure of azureauth.properties file for azure authentication
 
 subscription='subscription-id'
